@@ -1,5 +1,47 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CustomerOrder.aspx.cs" Inherits="ecommerce_website.CustomerOrder" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <div class="container" style="margin-top:50px">
+        <h2 class="text-center font-weight-bold text-uppercase" style="font-size: xx-large; color: black">Customer Order List</h2>
+        <table class="table table-striped table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Size</th>
+                    <th scope="col">Quantity</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Text</th>
+                    <th scope="col">Logo</th>
+                    <th scope="col">Tshirt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ecommerce_website.Properties.Settings.MyCon %>" SelectCommand="SELECT [name], [address], [text], [logo], [tshirt], [userId], [size], [quantity], [price] FROM [customerOrder]"></asp:SqlDataSource>
+                <asp:Repeater ID="Repeater1" runat="server" DataSourceID="SqlDataSource1">
+                    <ItemTemplate>
+                        <tr>
+                            <td><%# Eval("userId") %></td>
+                            <td><%# Eval("name") %></td>
+                            <td><%# Eval("address") %></td>
+                            <td><%# Eval("size") %></td>
+                            <td><%# Eval("quantity") %></td>
+                            <td><%# Eval("price") %></td>
+                            <td><%# Eval("text") %></td>
+                            <td><asp:Image ID="Image1" runat="server" Height="100px" ImageUrl='<%# Eval("logo") %>' Width="100px" /></td>
+                            <td><asp:Image ID="Image2" runat="server" Height="100px" ImageUrl='<%# Eval("tshirt") %>' Width="100px" /></td>
+                        </tr>
+                    </ItemTemplate>
+                </asp:Repeater>
+            </tbody>
+        </table>
+    </div>
+</asp:Content>
+
+
+
+<%--<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CustomerOrder.aspx.cs" Inherits="ecommerce_website.CustomerOrder" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
     <div align="center" style="margin-top:50px">
         <tr><span style="font-size: xx-large; color: #00FF99">Customer Order List</tr></span>
@@ -94,4 +136,4 @@
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ecommerce_website.Properties.Settings.MyCon %>" SelectCommand="SELECT [name], [address], [text], [logo], [tshirt], [userId], [size], [quantity], [price] FROM [customerOrder]"></asp:SqlDataSource>
     </div>
-</asp:Content>
+</asp:Content>--%>

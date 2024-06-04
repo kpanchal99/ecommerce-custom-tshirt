@@ -1,0 +1,357 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|c:\\users\\kpanchal\\desktop\\web_tech_project\\customize-tshirt\\ecommerce_website\\ecommerce_website\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\designt-shirt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\designt-shirt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\designt-shirt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\designt-shirt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\product_list.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\product_list.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\publicsite\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\publicsite\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\publicregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\publicregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\publiclogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\publiclogin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\defaultadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\defaultadmin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\webform1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\userinformation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\userinformation.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\site.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\site.master.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\site.mobile.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\site.mobile.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\site.mobile.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\site.mobile.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\customerorder.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\customerorder.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\contact.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\buyt-shirt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\buyt-shirt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\about.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\about.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DesignT-shirt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\DesignT-shirt.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\DesignT-shirt.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\DesignT-shirt.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\DesignT-shirt.aspx.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAawMUAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T13:16:01.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PublicRegister.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\PublicRegister.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\PublicRegister.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\PublicRegister.aspx",
+              "RelativeToolTip": "ecommerce_website\\PublicRegister.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T06:05:05.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PublicLogin.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\PublicLogin.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\PublicLogin.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\PublicLogin.aspx",
+              "RelativeToolTip": "ecommerce_website\\PublicLogin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T06:03:54.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "public.Master",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\publicSite\\public.Master",
+              "RelativeDocumentMoniker": "ecommerce_website\\publicSite\\public.Master",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\publicSite\\public.Master",
+              "RelativeToolTip": "ecommerce_website\\publicSite\\public.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T05:54:10.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "product_List.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\product_List.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\product_List.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\product_List.aspx",
+              "RelativeToolTip": "ecommerce_website\\product_List.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T06:09:50.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Web.config",
+              "RelativeDocumentMoniker": "ecommerce_website\\Web.config",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Web.config",
+              "RelativeToolTip": "ecommerce_website\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIEAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-05-27T05:21:28.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DesignT-shirt.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\DesignT-shirt.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\DesignT-shirt.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\DesignT-shirt.aspx",
+              "RelativeToolTip": "ecommerce_website\\DesignT-shirt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-30T12:26:19.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebForm1.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\WebForm1.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\WebForm1.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\WebForm1.aspx",
+              "RelativeToolTip": "ecommerce_website\\WebForm1.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T05:49:23.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserInformation.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\UserInformation.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\UserInformation.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\UserInformation.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\UserInformation.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:49:19.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Site.Master.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Site.Master.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\Site.Master.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Site.Master.cs",
+              "RelativeToolTip": "ecommerce_website\\Site.Master.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:44:41.187Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DefaultAdmin.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\DefaultAdmin.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\DefaultAdmin.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\DefaultAdmin.aspx",
+              "RelativeToolTip": "ecommerce_website\\DefaultAdmin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T05:43:22.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Default.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Default.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\Default.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Default.aspx",
+              "RelativeToolTip": "ecommerce_website\\Default.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-22T10:12:33.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Site.Master.designer.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Site.Master.designer.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\Site.Master.designer.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Site.Master.designer.cs",
+              "RelativeToolTip": "ecommerce_website\\Site.Master.designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:49:09.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Site.Mobile.Master.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Site.Mobile.Master.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\Site.Mobile.Master.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Site.Mobile.Master.cs",
+              "RelativeToolTip": "ecommerce_website\\Site.Mobile.Master.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:49:06.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "About.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\About.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\About.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\About.aspx",
+              "RelativeToolTip": "ecommerce_website\\About.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T05:43:30.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CustomerOrder.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\CustomerOrder.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\CustomerOrder.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\CustomerOrder.aspx",
+              "RelativeToolTip": "ecommerce_website\\CustomerOrder.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-22T10:12:22.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Site.Mobile.Master",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Site.Mobile.Master",
+              "RelativeDocumentMoniker": "ecommerce_website\\Site.Mobile.Master",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Site.Mobile.Master",
+              "RelativeToolTip": "ecommerce_website\\Site.Mobile.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T05:41:13.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BuyT-Shirt.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\BuyT-Shirt.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\BuyT-Shirt.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\BuyT-Shirt.aspx",
+              "RelativeToolTip": "ecommerce_website\\BuyT-Shirt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T05:43:38.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Contact.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Contact.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\Contact.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Contact.aspx",
+              "RelativeToolTip": "ecommerce_website\\Contact.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-05-27T05:43:39.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "About.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\About.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\About.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\About.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\About.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:43:28.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Global.asax.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\customize-tshirt\\ecommerce_website\\ecommerce_website\\Global.asax.cs",
+              "RelativeToolTip": "ecommerce_website\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T05:43:15.675Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

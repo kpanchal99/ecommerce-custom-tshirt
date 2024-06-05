@@ -3,7 +3,9 @@
 <%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style type="text/css">
-     
+        .btn-dark {
+     --bs-btn-hover-bg: none !important; 
+}
    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -36,7 +38,7 @@
                             <div class="col-md-4">
                                 <div class="form-group">
                                     <label for="TextBox1" class="auto-style1">Text:</label>
-                                    <asp:TextBox ID="TextBox1" runat="server" Height="20px" Width="180px" class="form-control"></asp:TextBox>
+                                    <asp:TextBox ID="TextBox1" runat="server" class="form-control" ></asp:TextBox>
                                 </div>
                                 <div class="form-group">
                                     <label for="DropDownList1" class="auto-style1">Size:</label>
@@ -82,50 +84,50 @@
                         <div class="mt-4">
                             <label for="Label1" class="auto-style1">Choose Color:</label>
                             <div class="d-flex flex-row justify-content-start" style="display: flex; flex-direction: row; row-gap: 10px;">
-                                <div class="mr-2">
-                                    <asp:Button ID="btn1" runat="server" CssClass="rounded-button btn" BackColor="#F4F4F4" BorderStyle="None" Height="30px" Width="30px" OnClientClick="btn1_Click" OnClick="btn1_Click1" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn1" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#F4F4F4" BorderStyle="None" Height="30px" Width="30px" OnClientClick="btn1_Click" OnClick="btn1_Click1" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn2" runat="server" CssClass="rounded-button btn" BackColor="#565656" BorderStyle="None" Height="30px" Width="30px" OnClick="btn2_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn2" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#565656" BorderStyle="None" Height="30px" Width="30px" OnClick="btn2_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn3" runat="server" CssClass="rounded-button btn" BackColor="#DFF901" BorderStyle="None" Height="30px" Width="30px" OnClick="btn3_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn3" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#DFF901" BorderStyle="None" Height="30px" Width="30px" OnClick="btn3_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn4" runat="server" CssClass="rounded-button btn" BackColor="#85C8EA" BorderStyle="None" Height="30px" Width="30px" OnClick="btn4_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn4" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#85C8EA" BorderStyle="None" Height="30px" Width="30px" OnClick="btn4_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn5" runat="server" CssClass="rounded-button btn" BackColor="#72E86F" BorderStyle="None" Height="30px" Width="30px" OnClick="btn5_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn5" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#72E86F" BorderStyle="None" Height="30px" Width="30px" OnClick="btn5_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn6" runat="server" CssClass="rounded-button btn" BackColor="#FE4B00" BorderStyle="None" Height="30px" Width="30px" OnClick="btn6_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn6" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#FE4B00" BorderStyle="None" Height="30px" Width="30px" OnClick="btn6_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn7" runat="server" CssClass="rounded-button btn" BackColor="#654A2E" BorderStyle="None" Height="30px" Width="30px" OnClick="btn7_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn7" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#654A2E" BorderStyle="None" Height="30px" Width="30px" OnClick="btn7_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn8" runat="server" CssClass="rounded-button btn" BackColor="#531C70" BorderStyle="None" Height="30px" Width="30px" OnClick="btn8_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn8" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#531C70" BorderStyle="None" Height="30px" Width="30px" OnClick="btn8_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn9" runat="server" CssClass="rounded-button btn" BackColor="#25A94C" BorderStyle="None" Height="30px" Width="30px" OnClick="btn9_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn9" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#25A94C" BorderStyle="None" Height="30px" Width="30px" OnClick="btn9_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn10" runat="server" CssClass="rounded-button btn" BackColor="#D94153" BorderStyle="None" Height="30px" Width="30px" OnClick="btn10_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn10" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#D94153" BorderStyle="None" Height="30px" Width="30px" OnClick="btn10_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn11" runat="server" CssClass="rounded-button btn" BackColor="#1B421F" BorderStyle="None" Height="30px" Width="30px" OnClick="btn11_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn11" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#1B421F" BorderStyle="None" Height="30px" Width="30px" OnClick="btn11_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn12" runat="server" CssClass="rounded-button btn" BackColor="#1D1F37" BorderStyle="None" Height="30px" Width="30px" OnClick="btn12_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn12" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#1D1F37" BorderStyle="None" Height="30px" Width="30px" OnClick="btn12_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn13" runat="server" CssClass="rounded-button btn" BackColor="#F0E642" BorderStyle="None" Height="30px" Width="30px" OnClick="btn13_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn13" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#F0E642" BorderStyle="None" Height="30px" Width="30px" OnClick="btn13_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn14" runat="server" CssClass="rounded-button btn" BackColor="#B2A075" BorderStyle="None" Height="30px" Width="30px" OnClick="btn14_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn14" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#B2A075" BorderStyle="None" Height="30px" Width="30px" OnClick="btn14_Click" />
                                 </div>
-                                <div class="mr-2">
-                                    <asp:Button ID="btn15" runat="server" CssClass="rounded-button btn" BackColor="#BBDFEB" BorderStyle="None" Height="30px" Width="30px" OnClick="btn15_Click" />
+                                <div class="px-2 ">
+                                    <asp:Button ID="btn15" runat="server" CssClass="rounded-circle border border-dark btn" BackColor="#BBDFEB" BorderStyle="None" Height="30px" Width="30px" OnClick="btn15_Click" />
                                 </div>
                             </div>
                         </div>
@@ -223,12 +225,12 @@
                     <div style="margin-top: 10px">
                         <tr>
                             <td>
-                                <asp:Button ID="btnOrder" runat="server" Text="Order" BackColor="Lime" CssClass="auto-style4" Width="80px" OnClick="btnOrder_Click" />
-                                <ajaxToolkit:DropShadowExtender ID="btnOrder_DropShadowExtender" runat="server" BehaviorID="btnOrder_DropShadowExtender" Opacity="75" Radius="10" Rounded="True" TargetControlID="btnOrder" TrackPosition="True" />
+                                <asp:Button ID="btnOrder" runat="server" Text="Order" CssClass="btn btn-dark" OnClick="btnOrder_Click" />
+                                <ajaxToolkit:DropShadowExtender ID="btnOrder_DropShadowExtender" runat="server" BehaviorID="btnOrder_DropShadowExtender"  Radius="10" Rounded="True" TargetControlID="btnOrder" TrackPosition="True" />
                                 &nbsp;
                             </td>
                             <td>
-                                <asp:Button ID="btnCancle" runat="server" Text="Cancle" BackColor="Red" CssClass="auto-style4" Width="80px" OnClick="btnCancle_Click" />
+                                <asp:Button ID="btnCancle" runat="server" Text="Cancel" CssClass="btn btn-danger" OnClick="btnCancle_Click" />
                                 <ajaxToolkit:DropShadowExtender ID="btnCancle_DropShadowExtender" runat="server" BehaviorID="btnCancle_DropShadowExtender" Opacity="75" Radius="10" Rounded="True" TargetControlID="btnCancle" TrackPosition="True" />
                             </td>
                         </tr>
@@ -240,7 +242,7 @@
                     </div>
                 </div>
             </div>
-
+            <div class="py-5"></div>
         </ContentTemplate>
     </asp:UpdatePanel>
 </asp:Content>

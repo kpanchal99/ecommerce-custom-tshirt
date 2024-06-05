@@ -30,6 +30,9 @@
         .nav > li > a:hover{
             background: none !important;
         }
+        .navbar{
+            margin-bottom:0 !important;
+        }
     </style>
 </head>
 

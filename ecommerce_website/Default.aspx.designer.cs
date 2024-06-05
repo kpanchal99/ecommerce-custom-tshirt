@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ecommerce_website {
-    
-    
-    public partial class ClientHomePage {
-        
+namespace ecommerce_website
+{
+
+
+    public partial class ClientHomePage
+    {
+
         /// <summary>
         /// ImageButton1 control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ImageButton ImageButton1;
-        
+
         /// <summary>
         /// ImageButton2 control.
         /// </summary>

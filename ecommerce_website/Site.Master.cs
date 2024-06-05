@@ -72,13 +72,13 @@ namespace ecommerce_website
             string s = "";
             if(Session["role"].ToString()=="")
             {
-                s += "<li><a href=\"Registration_Form.aspx\">Register</a></li>";
-                s+= "<li><a href=\"LoginAdmin.aspx\">Login</a></li>";
+                s += "<li><a class=\"text-white\" href=\"Registration_Form.aspx\">Register</a></li>";
+                s+= "<li><a class=\"text-white\" href=\"LoginAdmin.aspx\">Login</a></li>";
             }
             else
             {
-                s += "<li><a href=\"ProductAdd_Admin.aspx\">" + Session["name"].ToString() + "</a></li>";
-                s += "<li><a href=\"LogoutAdmin.aspx\">Logout</a></li>";
+                s += "<li><a class=\"text-white\" href=\"ProductAdd_Admin.aspx\">" + Session["name"].ToString() + "</a></li>";
+                s += "<li><a class=\"text-white\" href=\"LogoutAdmin.aspx\">Logout</a></li>";
             }
             return s;
         }

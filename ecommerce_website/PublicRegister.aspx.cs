@@ -58,7 +58,7 @@ namespace ecommerce_website
 
             if (user.Insert())
             {
-                lblMessage.Text = "Registration Successfully!";
+                lblMessage.Text = "Registration Successful!";
                 lblMessage.ForeColor = System.Drawing.Color.Green;
 
                 txtName.Text = "";

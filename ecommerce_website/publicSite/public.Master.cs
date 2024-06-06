@@ -18,13 +18,13 @@ namespace ecommerce_website.publicSite
             string s = "";
             if (Session["role"].ToString() == "")
             {
-                s += "<li><a href=\"PublicRegister.aspx\">Register</a></li>";
-                s += "<li><a href=\"PublicLogin.aspx\">Login</a></li>";
+                s += "<li><a class=\"text-white\" href=\"PublicRegister.aspx\">Register</a></li>";
+                s += "<li><a class=\"text-white\" href=\"PublicLogin.aspx\">Login</a></li>";
             }
             else
             {
-                s += "<li><a href=\"Default.aspx\">" + Session["name"].ToString() + "</a></li>";
-                s += "<li><a href=\"PublicLogout.aspx\">Logout</a></li>";
+                s += "<li><a class=\"text-white\" href=\"Default.aspx\">" + Session["name"].ToString() + "</a></li>";
+                s += "<li><a class=\"text-white\" href=\"PublicLogout.aspx\">Logout</a></li>";
             }
             return s;
         }

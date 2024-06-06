@@ -13,32 +13,43 @@ namespace ecommerce_website
         {
             if (!Page.IsPostBack)
             {
-                lblMessage.Text = "";
-                lblMessage.Text = Session["msg"].ToString();
-                lblMessage.ForeColor = System.Drawing.Color.Red;
-                Session["msg"] = "";
+                lblMessage.Visible = false;
+                if (Session["msg"] != null && !string.IsNullOrEmpty(Session["msg"].ToString()))
+                {
+                    lblMessage.Text = Session["msg"].ToString();
+                    lblMessage.Visible = true;
+                    Session["msg"] = "";
+                }
+                //lblMessage.Text = "";
+                //lblMessage.Text = Session["msg"].ToString();
+                //lblMessage.ForeColor = System.Drawing.Color.Red;
+                //Session["msg"] = "";
             }
         }
 
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
             int er = 0;
+            lblMessage.Visible = false;
             lblMessage.Text = "";
 
             if (txtEmail.Text == "")
             {
                 er++;
-                lblMessage.Text = "Please Insert Email";
+                lblMessage.Text = "Please enter Email";
+                lblMessage.Visible = true;
             }
             if (txtPassword.Text == "")
             {
                 er++;
-                lblMessage.Text ="Please Insert Password";
+                lblMessage.Text ="Please enter Password";
+                lblMessage.Visible = true;
             }
             if(txtEmail.Text=="" && txtPassword.Text=="")
             {
                 er++;
-                lblMessage.Text = "Please Insert Email and Password!";
+                lblMessage.Text = "Please enter Email and Password!";
+                lblMessage.Visible = true;
             }
             if (er > 0) return;
 
@@ -61,6 +72,7 @@ namespace ecommerce_website
             {
                 lblMessage.Text = "Invalid Login";
                 lblMessage.ForeColor = System.Drawing.Color.Red;
+                lblMessage.Visible = true;
             }
         }
     }

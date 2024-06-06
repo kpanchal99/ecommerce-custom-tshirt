@@ -45,7 +45,7 @@ namespace ecommerce_website
 
             if(p.Insert())
             {
-                lblMessage.Text = "Data Inserted";
+                lblMessage.Text = "Product Added!";
                 lblMessage.ForeColor = System.Drawing.Color.Green;
 
                 fileImg.SaveAs(Server.MapPath("uploads/productImages/" + p.Image));

@@ -32,7 +32,7 @@ namespace ecommerce_website
             L.Image = System.IO.Path.GetFileName(FileUpload1.FileName);
             if(L.Insert())
             {
-                lblText.Text = "Data Inserted!";
+                lblText.Text = "Logo Uploaded!";
                 lblText.ForeColor = System.Drawing.Color.Green;
                 FileUpload1.SaveAs(Server.MapPath("uploads/productLogo/" + L.Image));
                 Response.Redirect("Logo_Update.aspx");

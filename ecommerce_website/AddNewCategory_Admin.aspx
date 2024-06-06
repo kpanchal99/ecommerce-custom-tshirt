@@ -3,41 +3,18 @@
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <link href="css/MyStyle.css" rel="stylesheet" />
-    <div align="center" style="margin-top:150px">
-
-        <table width="500" height="155"  style="border-radius:75px 5px; background-image: url('../images/bg-7-full.jpg');">
-
-            <tr>
-                <td colspan="2" align="center" style="font-size: x-large"><strong>Add New Category</strong></td>
-            </tr>
-
-            <tr>
-                <td style="text-align: center; height: 39px;"><strong>Category Name: </strong></td>
-                <td style="text-align: left; height: 39px;">&nbsp;&nbsp;
-              <asp:TextBox ID="txtCategory" runat="server" Width="170px"></asp:TextBox>
-                &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtCategory" ErrorMessage="Required" Font-Bold="True" ForeColor="Red"></asp:RequiredFieldValidator>
-                </td>
-
-            </tr>
-            <tr>
-                <td colspan="2" align="center" style="height: 45px">
-                    <asp:Button ID="btnSubmit" runat="server" Text="Submit" Width="100px" BackColor="#76FF03" Height="25px" OnClick="btnSubmit_Click" />
-                    <ajaxToolkit:DropShadowExtender ID="btnSubmit_DropShadowExtender" runat="server" BehaviorID="btnSubmit_DropShadowExtender" TargetControlID="btnSubmit" Opacity="50" Radius="10" Rounded="True" ViewStateMode="Enabled">
-                    </ajaxToolkit:DropShadowExtender>
-                </td>
-            </tr>
-
-        </table>
-
+    <div class="d-flex align-items-center justify-content-center bg-light" style="min-height: 83.8vh; margin: 0;">
+        <div class="bg-white p-4 border shadow rounded w-25" style="border-radius:5px;">
+            <h3 class="text-center font-weight-light mb-4">Add New Category</h3>
+            <div class="form-group mb-4">
+                <label for="txtCategory" class="font-weight-normal">Category Name:</label>
+                <asp:TextBox ID="txtCategory" runat="server" CssClass="form-control" Width="100%"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtCategory" ErrorMessage="Required" CssClass="form-text text-danger "></asp:RequiredFieldValidator>
+            </div>
+            <asp:Button ID="btnSubmit" runat="server" Text="Submit" CssClass="btn btn-dark btn-block mt-4" OnClick="btnSubmit_Click" />
+            <div class="text-center mt-3">
+                <asp:Label ID="lblMessage" runat="server" Text="" CssClass="form-text text-success text-center"></asp:Label>
+            </div>
+        </div>
     </div>
-
-         <table class="lblMessageforProduct">
-            <tr>
-                <td>
-                    <asp:Label ID="lblMessage" runat="server" Font-Bold="True"></asp:Label>
-                </td>
-            </tr>
-        </table>
-
 </asp:Content>

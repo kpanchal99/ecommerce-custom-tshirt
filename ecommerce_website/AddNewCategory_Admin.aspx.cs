@@ -36,7 +36,7 @@ namespace ecommerce_website
 
             if(c.Insert())
             {
-                lblMessage.Text = "Data Inserted Successfully!";
+                lblMessage.Text = "Category added Successfully!";
                 lblMessage.ForeColor = System.Drawing.Color.Green;
             }
             else

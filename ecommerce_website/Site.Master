@@ -45,7 +45,7 @@
 
 
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="~/Default.aspx">The T-Shirt Store</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,16 +65,16 @@
                 </div>
             </div>
         </nav>
-        <div class="container body-content">
+        <div class=" body-content">
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
-
-            <footer class="bg-dark text-white pt-4">
+            </div>
+            <footer class="bg-dark text-white pt-4 ">
                 <div class="container text-center">
                     <p>&copy;  <%: DateTime.Now.Year %> Customized T-Shirts. All rights reserved.</p>
                 </div>
             </footer>
-        </div>
+        
     </form>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 

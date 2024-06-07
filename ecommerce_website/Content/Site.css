@@ -38,7 +38,7 @@ input[type="password"],
 input[type="email"],
 input[type="tel"],
 input[type="select"] {
-    max-width: 280px;
+    max-width: 100% !important;
 }
 
 /* Responsive: Portrait tablets and up */

@@ -27,105 +27,105 @@ namespace ecommerce_website
         protected void btn1_Click1(object sender, EventArgs e)
         {
             Session["tshirt-color"]= "images/Choose_TShirt_Color/1.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "1.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "1.png" + ">";
             LodeImage();
         }
 
         protected void btn2_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/2.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "2.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "2.png" + ">";
             LodeImage();
         }
 
         protected void btn3_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/3.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "3.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "3.png" + ">";
             LodeImage();
         }
 
         protected void btn4_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/4.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "4.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "4.png" + ">";
             LodeImage();
         }
 
         protected void btn5_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/5.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "5.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "5.png" + ">";
             LodeImage();
         }
 
         protected void btn6_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/6.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "6.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "6.png" + ">";
             LodeImage();
         }
 
         protected void btn7_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/7.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "7.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "7.png" + ">";
             LodeImage();
         }
 
         protected void btn8_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/8.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "8.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "8.png" + ">";
             LodeImage();
         }
 
         protected void btn9_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/9.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "9.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "9.png" + ">";
             LodeImage();
         }
 
         protected void btn10_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/10.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "10.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "10.png" + ">";
             LodeImage();
         }
 
         protected void btn11_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/11.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "11.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "11.png" + ">";
             LodeImage();
         }
 
         protected void btn12_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/12.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "12.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "12.png" + ">";
             LodeImage();
         }
 
         protected void btn13_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/13.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "13.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "13.png" + ">";
             LodeImage();
         }
 
         protected void btn14_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/14.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "14.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "14.png" + ">";
             LodeImage();
         }
 
         protected void btn15_Click(object sender, EventArgs e)
         {
             Session["tshirt-color"] = "images/Choose_TShirt_Color/15.png";
-            Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "15.png" + ">";
+            Session["image1"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src =" + "images/Choose_TShirt_Color/" + "15.png" + ">";
             LodeImage();
         }
 
@@ -161,7 +161,7 @@ namespace ecommerce_website
             {
                 string image = e.CommandArgument.ToString();
                 Session["tshirt-Logo"] = "uploads/productLogo/" + image;
-                Session["image2"] = "<img style=" + '"' + "height:90px; width:100px" + '"' + "src=" + "uploads/productLogo/" + image + ">";
+                Session["image2"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src=" + "uploads/productLogo/" + image + ">";
                 LoadsecondImage();
             }
         }

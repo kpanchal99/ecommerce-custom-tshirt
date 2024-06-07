@@ -3,86 +3,50 @@
 <%@ Register assembly="AjaxControlToolkit" namespace="AjaxControlToolkit" tagprefix="ajaxToolkit" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-
-    <div style="margin-top: 100px">
-        <strong><span style="color: #000000; font-size: xx-large">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size: xx-large; color: #006666">&nbsp;&nbsp;&nbsp;&nbsp; </span><span style="font-size: xx-large; color: #000000">ADD NEW PRODUCT</span></strong><br />
-        <table align="center" style="width: 650px; margin: 0 auto; border-radius: 15px 15px 15px 15px; height: 180px; table-layout: auto; border-collapse: inherit; empty-cells: show; background-image: url('images/bg-7-full.jpg');" id="productTable">
-            <tr>
-                <td style="text-align: right; width: 247px; height: 22px;"></td>
-                <td style="height: 22px"></td>
-            </tr>
-            <tr>
-                <td style="text-align: right; width: 247px"><strong>Product Name</strong></td>
-                <td>
-                    <asp:TextBox ID="txtProductName" runat="server" Width="180px"></asp:TextBox>
-                    &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtProductName" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: right; width: 247px">&nbsp;</td>
-                <td>
-                    &nbsp;</td>
-            </tr>
-            <tr>
-
-                <td style="text-align: right; width: 247px"><strong>Product Category</strong></td>
-                <td>
-                    <asp:DropDownList ID="ddlProduct" runat="server" Width="180px" DataSourceID="SqlDataSource1" DataTextField="name" DataValueField="id" AppendDataBoundItems="True" OnSelectedIndexChanged="ddlProduct_SelectedIndexChanged">
+    <div class="d-flex align-items-center justify-content-center bg-light" style="min-height: 83.8vh; margin: 0;">
+        <div class="bg-white p-4 border shadow rounded w-50" style="border-radius:5px;">
+            <h3 class="text-center font-weight-light mb-4">Add New Product</h3>
+            
+            <div class="row mb-2">
+                <div class="form-group col-md-6 mb-2">
+                    <label for="txtProductName" class="font-weight-normal">Product Name:</label>
+                    <asp:TextBox ID="txtProductName" runat="server" CssClass="form-control" Width="100%"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="txtProductName" ErrorMessage="Required" CssClass="form-text text-danger"></asp:RequiredFieldValidator>
+                </div>
+                <div class="form-group col-md-6 mb-2">
+                    <label for="ddlProduct" class="font-weight-normal">Product Category:</label>
+                    <asp:DropDownList ID="ddlProduct" runat="server" CssClass="form-control" Width="100%" DataSourceID="SqlDataSource1" DataTextField="name" DataValueField="id" AppendDataBoundItems="True" OnSelectedIndexChanged="ddlProduct_SelectedIndexChanged">
                         <asp:ListItem Value="0">Select</asp:ListItem>
                     </asp:DropDownList>
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="ddlProduct" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
-                    &nbsp;<asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ecommerce_website.Properties.Settings.MyCon %>" SelectCommand="SELECT [id], [name] FROM [category]"></asp:SqlDataSource>
-                </td>
-            </tr>
-            <tr>
-
-                <td style="text-align: right; width: 247px">&nbsp;</td>
-                <td>
-                    &nbsp;</td>
-            </tr>
-            <tr>
-                <td style="text-align: right; width: 247px"><strong>Product Description</strong></td>
-                <td>
-                    <asp:TextBox ID="txtProductDescription" runat="server" TextMode="MultiLine" Width="180px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: right; width: 247px">&nbsp;</td>
-                <td>&nbsp;</td>
-            </tr>
-            <tr>
-                <td style="text-align: right; width: 247px"><strong>Product Image</strong></td>
-                <td>
-                    <asp:FileUpload ID="fileImg" runat="server" Width="180px" />
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: right; width: 247px; height: 19px">
-                    <strong>
-                        <br />
-                        Product Price</strong></td>
-                <td style="height: 19px">
-                    <br />
-                    <asp:TextBox ID="txtProductPrice" runat="server" Height="20px" Width="180px"></asp:TextBox>
-                    &nbsp;<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtProductPrice" ErrorMessage="Required" ForeColor="Red"></asp:RequiredFieldValidator>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: right; width: 247px; height: 20px"></td>
-                <td style="height: 20px; text-align: left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <br />
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="Button1" runat="server" BackColor="Lime" Font-Bold="True" Height="30px" OnClick="Button1_Click" Text="Submit" Width="120px" />
-                    <ajaxToolkit:DropShadowExtender ID="Button1_DropShadowExtender" runat="server" BehaviorID="Button1_DropShadowExtender" Opacity="75" Radius="10" Rounded="True" TargetControlID="Button1" TrackPosition="True" Width="10">
-                    </ajaxToolkit:DropShadowExtender>
-                </td>
-            </tr>
-            <tr>
-                <td style="text-align: right; width: 247px; height: 20px">&nbsp;</td>
-                <td style="height: 20px; text-align: center;">
-                    <asp:Label ID="lblMessage" runat="server"></asp:Label>
-                </td>
-            </tr>
-        </table>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="ddlProduct" ErrorMessage="Required" CssClass="form-text text-danger"></asp:RequiredFieldValidator>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ecommerce_website.Properties.Settings.MyCon %>" SelectCommand="SELECT [id], [name] FROM [category]"></asp:SqlDataSource>
+                </div>
+            </div>
+            
+            <div class="form-group  mb-2">
+                <label for="txtProductDescription" class="font-weight-normal">Product Description:</label>
+                <asp:TextBox ID="txtProductDescription" runat="server" TextMode="MultiLine" CssClass="form-control" Width="100%"></asp:TextBox>
+            </div>
+            
+            <div class="row mb-2">
+                <div class="form-group col-md-6">
+                    <label for="fileImg" class="font-weight-normal">Product Image:</label>
+                    <asp:FileUpload ID="fileImg" runat="server" CssClass="form-control" Width="100%"></asp:FileUpload>
+                </div>
+                <div class="form-group col-md-6 mb-2">
+                    <label for="txtProductPrice" class="font-weight-normal">Product Price:</label>
+                    <asp:TextBox ID="txtProductPrice" runat="server" CssClass="form-control" Width="100%"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="txtProductPrice" ErrorMessage="Required" CssClass="form-text text-danger"></asp:RequiredFieldValidator>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center mt-2 mb-2">
+                <asp:Button ID="Button2" runat="server" Text="Submit" CssClass="btn btn-dark mt-2" OnClick="Button1_Click" />
+            </div>
+            
+           
+            <div class="text-center mt-2">
+                <asp:Label ID="lblMessage" runat="server" Text="" CssClass="form-text text-success text-center"></asp:Label>
+            </div>
+        </div>
     </div>
 </asp:Content>

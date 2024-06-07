@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ecommerce_website.publicSite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -16,8 +17,8 @@ namespace ecommerce_website
                 if (Session["getimg"].ToString()!="")
                 {
                     imglode.ImageUrl = Session["getimg"].ToString();
-                    lblprice.Text = Session["getprice"].ToString();
-                    lblprice.Text += " Tk/=";
+                    lblprice.Text = "₹ "+Session["getprice"].ToString();
+                    lblprice.Text += "/=";
                 }
             }
             Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "1.png" + ">";
@@ -30,7 +31,7 @@ namespace ecommerce_website
             {
                 int Total = Convert.ToInt32(Session["getprice"].ToString());
                 Total *= Convert.ToInt32(ddlQuantity.SelectedValue);
-                txtTotal.Text = Total.ToString()+" Tk/=";
+                txtTotal.Text = "₹ "+Total.ToString()+" /=";
             }
         }
 
@@ -50,6 +51,29 @@ namespace ecommerce_website
                 Response.Redirect("PublicLogin.aspx");
             }
 
+            // now add to cart // session 
+
+
+            var newItem = new CartItem
+            {
+                Id = 0,
+                Name = Session["name"].ToString(),
+                Address = txtAddress.Text,
+                Logo = "",
+                Text = "",
+                Tshirt = Session["getimg"].ToString(),
+                UserId = Convert.ToInt32(Session["id"]),
+                Size = ddlSize.SelectedValue,
+                Price = Convert.ToInt32(Session["getprice"].ToString()),
+                Quantity = Convert.ToInt32(ddlQuantity.SelectedValue),
+
+            };
+
+            AddItemToCart(newItem);
+
+            lblMessage.Text = "Item added to cart.";
+            return;
+            ///
             DAL.customerOrder Order = new DAL.customerOrder();
             Order.Name = Session["name"].ToString();
             Order.Address = txtAddress.Text;
@@ -79,6 +103,21 @@ namespace ecommerce_website
         protected void btnCancle_Click(object sender, EventArgs e)
         {
             Response.Redirect("DefaultClient.aspx");
+        }
+
+        public void InitializeCart()
+        {
+            if (Session["Cart"] == null)
+            {
+                Session["Cart"] = new List<CartItem>();
+            }
+        }
+
+        public void AddItemToCart(CartItem item)
+        {
+            var cart = (List<CartItem>)Session["Cart"];
+            cart.Add(item);
+            Session["Cart"] = cart;
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ecommerce_website.publicSite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,10 +10,12 @@ namespace ecommerce_website
 {
     public partial class ClientHomePage : System.Web.UI.Page
     {
+
         protected void Page_Load(object sender, EventArgs e)
         {
             Session["image1"] = "<img style=" + '"' + "height:400px; width:400px" + '"' + "src =" + "images/Choose_TShirt_Color/" + "1.png" + ">";
             Session["image2"] = "";
+ 
         }
 
         protected void Image_Click(object sender, CommandEventArgs e)
@@ -26,5 +29,24 @@ namespace ecommerce_website
                 Response.Redirect("DesignT-shirt.aspx");
             }
         }
+
+     
+
+        public void InitializeCart()
+        {
+            if (Session["Cart"] == null)
+            {
+                Session["Cart"] = new List<CartItem>();
+            }
+        }
+
+        public void AddItemToCart(CartItem item)
+        {
+            var cart = (List<CartItem>)Session["Cart"];
+            cart.Add(item);
+            Session["Cart"] = cart;
+        }
+
+
     }
 }

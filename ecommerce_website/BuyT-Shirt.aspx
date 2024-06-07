@@ -77,7 +77,7 @@
                         </div>
                         <div class="d-flex py-4">
                          <div>
-                            <asp:Button ID="btnSubmit" runat="server" Text="Buy"  CssClass="btn btn-dark" OnClick="btnSubmit_Click" />
+                            <asp:Button ID="btnSubmit" runat="server" Text="Add To Cart"  CssClass="btn btn-dark" OnClick="btnSubmit_Click" />
                             <ajaxToolkit:DropShadowExtender ID="btnSubmit_DropShadowExtender" runat="server" BehaviorID="btnSubmit_DropShadowExtender" Radius="15" Rounded="True" TargetControlID="btnSubmit" TrackPosition="True" ViewStateMode="Enabled" />
                             &nbsp;
                         </div>

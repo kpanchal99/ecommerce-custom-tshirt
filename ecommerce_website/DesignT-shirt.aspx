@@ -22,7 +22,7 @@
                     <!-- Left Side (40%) -->
                     <div class="col-md-4">
                         <!-- Place your cost content here -->
-                        <div class="loadImage">
+                        <div class="loadImage" style="top:175px; left:56%">
                             <%=LoadsecondImage() %>
                         </div>
                         <div class="image">
@@ -151,7 +151,7 @@
                                     <table style="width: 100%; height: 20px; margin: 5px">
                                         <tr>
                                             <td>
-                                                <asp:ImageButton ID="phImage" runat="server" ImageUrl='<%# "uploads/productLogo/" + Eval("logo") %>' OnCommand="Image_Click" CommandName="ImageClick" CommandArgument='<%# Eval("logo") %>' align="left" Width="80px" />
+                                                <asp:ImageButton ID="phImage" runat="server"  ImageUrl='<%# "uploads/productLogo/" + Eval("logo") %>' OnCommand="Image_Click" CommandName="ImageClick" CommandArgument='<%# Eval("logo") %>' align="left" Width="80px" />
                                             </td>
                                         </tr>
                                     </table>
@@ -225,7 +225,7 @@
                     <div style="margin-top: 10px">
                         <tr>
                             <td>
-                                <asp:Button ID="btnOrder" runat="server" Text="Order" CssClass="btn btn-dark" OnClick="btnOrder_Click" />
+                                <asp:Button ID="btnOrder" runat="server" Text="Add to Cart" CssClass="btn btn-dark" OnClick="btnOrder_Click" />
                                 <ajaxToolkit:DropShadowExtender ID="btnOrder_DropShadowExtender" runat="server" BehaviorID="btnOrder_DropShadowExtender"  Radius="10" Rounded="True" TargetControlID="btnOrder" TrackPosition="True" />
                                 &nbsp;
                             </td>

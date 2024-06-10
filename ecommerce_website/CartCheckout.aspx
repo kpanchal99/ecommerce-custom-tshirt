@@ -76,12 +76,12 @@
                 </div>--%>
                 <div class="mb-3">
                     <label for="email">Email <span class="text-muted"></span></label>
-                    <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                    <input type="email" class="form-control" id="email" placeholder="you@example.com" required="">
                     <div class="invalid-feedback"> Please enter a valid email address for shipping updates. </div>
                 </div>
                 <div class="mb-3">
                     <label for="address">Address</label>
-                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" >
+                    <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
                     <div class="invalid-feedback"> Please enter your shipping address. </div>
                 </div>
                 <div class="mb-3">
@@ -177,7 +177,7 @@
            <%-- <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
             <asp:Button ID="btnContinueCheckout" runat="server" CssClass="btn btn-primary btn-lg btn-block" Text="Continue to checkout" OnClick="btnContinueCheckout_Click" >/--%>
             
-            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click1" />
+            <asp:Button ID="Button1" runat="server" CssClass="btn btn-primary btn-lg btn-block mb-4" Text="Continue to checkout" OnClick="Button1_Click1" />
             
         </div>
     </div>

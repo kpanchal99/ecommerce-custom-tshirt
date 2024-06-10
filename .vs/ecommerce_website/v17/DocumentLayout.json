@@ -1,10 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\test-website\\",
+  "WorkspaceRootPath": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|c:\\users\\kpanchal\\desktop\\web_tech_project\\test-website\\ecommerce_website\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\default.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|c:\\users\\kpanchal\\desktop\\web_tech_project\\new_update_repo\\ecommerce_website\\productadd_admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\productadd_admin.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\productadd_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\productadd_admin.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\publicregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\publicregister.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\publicregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\publicregister.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\designt-shirt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\designt-shirt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\cartcheckout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\cartcheckout.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\cartcheckout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\cartcheckout.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\designt-shirt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\designt-shirt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\publicsite\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\publicsite\\public.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\publicsite\\public.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\publicsite\\public.master.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\checkoutsuccess.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\checkoutsuccess.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\product_list.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\product_list.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\buyt-shirt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\buyt-shirt.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\buyt-shirt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\buyt-shirt.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\logo_update.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\logo_update.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\logo_update.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{0B22AF56-4256-46DD-A45C-1C35B74CC425}|ecommerce_website\\ecommerce_website.csproj|solutionrelative:ecommerce_website\\logo_update.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,14 +84,209 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Default.aspx",
-              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\test-website\\ecommerce_website\\Default.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\Default.aspx",
               "RelativeDocumentMoniker": "ecommerce_website\\Default.aspx",
-              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\test-website\\ecommerce_website\\Default.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\Default.aspx",
               "RelativeToolTip": "ecommerce_website\\Default.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-06-04T05:49:17.305Z",
+              "WhenOpened": "2024-06-04T20:32:17.311Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductAdd_Admin.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\ProductAdd_Admin.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\ProductAdd_Admin.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\ProductAdd_Admin.aspx",
+              "RelativeToolTip": "ecommerce_website\\ProductAdd_Admin.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T22:52:03.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductAdd_Admin.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\ProductAdd_Admin.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\ProductAdd_Admin.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\ProductAdd_Admin.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\ProductAdd_Admin.aspx.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAAACUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:49:36.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PublicRegister.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\PublicRegister.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\PublicRegister.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\PublicRegister.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\PublicRegister.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T22:47:34.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PublicRegister.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\PublicRegister.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\PublicRegister.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\PublicRegister.aspx",
+              "RelativeToolTip": "ecommerce_website\\PublicRegister.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T22:47:12.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CartCheckout.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\CartCheckout.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\CartCheckout.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\CartCheckout.aspx",
+              "RelativeToolTip": "ecommerce_website\\CartCheckout.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T22:14:43.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DesignT-shirt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\DesignT-shirt.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\DesignT-shirt.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\DesignT-shirt.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\DesignT-shirt.aspx.cs",
+              "ViewState": "AQIAAO8AAAAAAAAAAAA8wKMAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:59:18.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CheckOutSuccess.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\CheckOutSuccess.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\CheckOutSuccess.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\CheckOutSuccess.aspx",
+              "RelativeToolTip": "ecommerce_website\\CheckOutSuccess.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T13:58:10.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartCheckout.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\CartCheckout.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\CartCheckout.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\CartCheckout.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\CartCheckout.aspx.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAawGQAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T20:24:21.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "public.Master.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\publicSite\\public.Master.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\publicSite\\public.Master.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\publicSite\\public.Master.cs",
+              "RelativeToolTip": "ecommerce_website\\publicSite\\public.Master.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T13:59:24.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "public.Master",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\publicSite\\public.Master",
+              "RelativeDocumentMoniker": "ecommerce_website\\publicSite\\public.Master",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\publicSite\\public.Master",
+              "RelativeToolTip": "ecommerce_website\\publicSite\\public.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T13:59:53.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DesignT-shirt.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\DesignT-shirt.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\DesignT-shirt.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\DesignT-shirt.aspx",
+              "RelativeToolTip": "ecommerce_website\\DesignT-shirt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T13:32:28.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "product_List.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\product_List.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\product_List.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\product_List.aspx",
+              "RelativeToolTip": "ecommerce_website\\product_List.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T12:51:04.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BuyT-Shirt.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\BuyT-Shirt.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\BuyT-Shirt.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\BuyT-Shirt.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\BuyT-Shirt.aspx.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwD0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T10:53:16.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BuyT-Shirt.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\BuyT-Shirt.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\BuyT-Shirt.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\BuyT-Shirt.aspx",
+              "RelativeToolTip": "ecommerce_website\\BuyT-Shirt.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T10:53:15.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Logo_Update.aspx",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\Logo_Update.aspx",
+              "RelativeDocumentMoniker": "ecommerce_website\\Logo_Update.aspx",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\Logo_Update.aspx",
+              "RelativeToolTip": "ecommerce_website\\Logo_Update.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-07T11:01:38.711Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Logo_Update.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\Logo_Update.aspx.cs",
+              "RelativeDocumentMoniker": "ecommerce_website\\Logo_Update.aspx.cs",
+              "ToolTip": "C:\\Users\\kpanchal\\Desktop\\WEB_TECH_PROJECT\\new_update_repo\\ecommerce_website\\Logo_Update.aspx.cs",
+              "RelativeToolTip": "ecommerce_website\\Logo_Update.aspx.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T11:01:42.499Z"
             }
           ]
         }

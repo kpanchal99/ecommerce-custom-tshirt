@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ecommerce_website {
-    
-    
-    public partial class myAccount {
-        
+namespace ecommerce_website
+{
+
+
+    public partial class myAccount
+    {
+
         /// <summary>
         /// txtProductName control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtProductName;
-        
+
         /// <summary>
         /// RequiredFieldValidator1 control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator1;
-        
+
         /// <summary>
         /// ddlProduct control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList ddlProduct;
-        
+
         /// <summary>
         /// RequiredFieldValidator2 control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator2;
-        
+
         /// <summary>
         /// SqlDataSource1 control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
-        
+
         /// <summary>
         /// txtProductDescription control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtProductDescription;
-        
+
         /// <summary>
         /// fileImg control.
         /// </summary>
@@ -74,7 +76,16 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.FileUpload fileImg;
-        
+
+        /// <summary>
+        /// rfvFileImg control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvFileImg;
+
         /// <summary>
         /// txtProductPrice control.
         /// </summary>
@@ -83,7 +94,7 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtProductPrice;
-        
+
         /// <summary>
         /// RequiredFieldValidator3 control.
         /// </summary>
@@ -92,25 +103,16 @@ namespace ecommerce_website {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.RequiredFieldValidator RequiredFieldValidator3;
-        
+
         /// <summary>
-        /// Button1 control.
+        /// Button2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
-        
-        /// <summary>
-        /// Button1_DropShadowExtender control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::AjaxControlToolkit.DropShadowExtender Button1_DropShadowExtender;
-        
+        protected global::System.Web.UI.WebControls.Button Button2;
+
         /// <summary>
         /// lblMessage control.
         /// </summary>

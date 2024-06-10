@@ -34,6 +34,15 @@ namespace ecommerce_website
                 er++;
                 RequiredFieldValidator3.Text = "Required";
             }
+            if (fileImg.HasFile)
+            {
+            }
+            else
+            {
+                // Display error message
+                lblMessage.Text = "Please select a file to upload.";
+                lblMessage.CssClass = "text-danger";
+            }
             if (er > 0) return;
 
             DAL.product p = new DAL.product();

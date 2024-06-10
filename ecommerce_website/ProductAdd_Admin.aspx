@@ -31,8 +31,12 @@
             <div class="row mb-2">
                 <div class="form-group col-md-6">
                     <label for="fileImg" class="font-weight-normal">Product Image:</label>
-                    <asp:FileUpload ID="fileImg" runat="server" CssClass="form-control" Width="100%"></asp:FileUpload>
-                </div>
+<asp:FileUpload ID="fileImg" runat="server" CssClass="form-control" Width="100%"></asp:FileUpload>
+<asp:RequiredFieldValidator ID="rfvFileImg" runat="server" 
+    ControlToValidate="fileImg" 
+    ErrorMessage="Please upload a file." 
+    CssClass="text-danger"
+    Display="Dynamic"></asp:RequiredFieldValidator>                </div>
                 <div class="form-group col-md-6 mb-2">
                     <label for="txtProductPrice" class="font-weight-normal">Product Price:</label>
                     <asp:TextBox ID="txtProductPrice" runat="server" CssClass="form-control" Width="100%"></asp:TextBox>
@@ -45,7 +49,7 @@
             
            
             <div class="text-center mt-2">
-                <asp:Label ID="lblMessage" runat="server" Text="" CssClass="form-text text-success text-center"></asp:Label>
+                <asp:Label ID="lblMessage" runat="server" Text="" CssClass="form-text text-success text-center fs-1"></asp:Label>
             </div>
         </div>
     </div>

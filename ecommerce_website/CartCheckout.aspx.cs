@@ -109,7 +109,7 @@ namespace ecommerce_website
                 Order.UserId = record.UserId;
                 Order.Size = record.Size;
                 Order.Quantity = record.Quantity;
-                Order.price = record.Quantity * record.Price; // Assuming the price is fixed at 350 for each item
+                Order.price = record.Quantity * record.Price; 
 
                 if (Order.Insert())
                 {
@@ -126,7 +126,7 @@ namespace ecommerce_website
             }
             // Clear the session["Cart"] 
             Session["Cart"] = new List<CartItem>();
-            Response.Redirect("Default.aspx");
+            Response.Redirect("CheckOutSuccess.aspx");
         }
 
 

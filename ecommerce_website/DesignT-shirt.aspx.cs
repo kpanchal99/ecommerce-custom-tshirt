@@ -161,7 +161,7 @@ namespace ecommerce_website
             {
                 string image = e.CommandArgument.ToString();
                 Session["tshirt-Logo"] = "uploads/productLogo/" + image;
-                Session["image2"] = "<img class=" + '"' + "w-100 img-fluid" + '"' + "src=" + "uploads/productLogo/" + image + ">";
+                Session["image2"] = "<img class=" + '"' + "w-75 img-fluid" + '"' + "src=" + "uploads/productLogo/" + image + ">";
                 LoadsecondImage();
             }
         }

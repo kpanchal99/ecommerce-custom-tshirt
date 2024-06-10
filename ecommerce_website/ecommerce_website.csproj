@@ -319,6 +319,8 @@
     <Content Include="bin\System.Web.Providers.xml" />
     <Content Include="bin\WebGrease.dll" />
     <Content Include="BuyT-Shirt.aspx" />
+    <Content Include="CartCheckout.aspx" />
+    <Content Include="CheckOutSuccess.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -787,6 +789,20 @@
     </Compile>
     <Compile Include="BuyT-Shirt.aspx.designer.cs">
       <DependentUpon>BuyT-Shirt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CartCheckout.aspx.cs">
+      <DependentUpon>CartCheckout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CartCheckout.aspx.designer.cs">
+      <DependentUpon>CartCheckout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOutSuccess.aspx.cs">
+      <DependentUpon>CheckOutSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CheckOutSuccess.aspx.designer.cs">
+      <DependentUpon>CheckOutSuccess.aspx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
